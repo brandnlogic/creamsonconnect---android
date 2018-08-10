@@ -1,0 +1,4 @@
+include ':app', ':library', ':fastscroll', ':filepicker'
+project(':fastscroll').projectDir = new File('fastscroll')
+project(':library').projectDir = new File('library')
+project(':filepicker').projectDir = new File('filepicker')
